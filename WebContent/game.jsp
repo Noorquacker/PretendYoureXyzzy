@@ -82,37 +82,10 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
 <body id="gamebody">
 
 <div id="welcome">
-  <div id="tweetbox">
-    <h3>Recent tweets (mainly server status updates)</h3>
-    <a class="twitter-timeline" data-height="500" data-dnt="true" data-theme="light"
-    href="https://twitter.com/_PYX_?ref_src=twsrc%5Etfw">Tweets by _PYX_</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
   <h1 tabindex="0">
-    Pretend You're <dfn
-    title="Xyzzy is an Artificial Unintelligence bot. You'll be making more sense than him in this game.">
-    Xyzzy</dfn>
+    Cards Against Humanity | <a href="https://www.nqind.com">Noorquacker Ind.</a>
   </h1>
-  <h3>A <a href="http://cardsagainsthumanity.com/">Cards Against Humanity</a> clone.</h3>
-  <p>
-    This webapp is still in development. There will be bugs, but hopefully they won't affect gameplay
-    very much.
-  </p>
-  <p>
-    If this is your first time playing, you may wish to read <a href="index.jsp">the changelog and
-    list of known issues</a>.
-  </p>
-  <p>
-    Your computer's IP address will <strong>always</strong> be logged when you load the game client.
-    It is not tied in any way to your username, except possibly if a server error occurs. Gameplay
-    results are logged permanently, but without information identifying you.
-  </p>
-  <p tabindex="0">Most recent update: 3 September 2018:</p>
-  <ul>
-    <li>All chat and fill-in-the-blank cards have been disabled. If you're still out of the loop,
-    <a href="https://gist.githubusercontent.com/ajanata/07ededdb584f7bb77a8c7191d3a4bbcc/raw/e76faacc19c2bb598a1a8fd94b9ebcb29c5502e0">
-    here's why.</a></li>
-  </ul>
+  <h3>Powered by Pretend You're Xyzzy</h3>
   <div id="nickbox">
     <label for="nickname">Nickname:</label>
     <input type="text" id="nickname" value="" maxlength="30" role="textbox"
