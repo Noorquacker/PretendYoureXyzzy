@@ -78,10 +78,15 @@ pyx.game.max_blank_card_limit=30
 #hibernate.driver_class=org.postgresql.Driver
 #hibernate.url=jdbc:postgresql://localhost/pyx
 
+# or mysql
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+hibernate.driver_class=com.mysql.jdbc.Driver
+hibernate.url=jdbc:mysql://localhost:3306/your_db
+
 # for local use, you can also use sqlite
-hibernate.dialect=net.socialgamer.cah.hibernate.SqliteDialect
-hibernate.driver_class=org.sqlite.JDBC
-hibernate.url=jdbc:sqlite:pyx.sqlite
+#hibernate.dialect=net.socialgamer.cah.hibernate.SqliteDialect
+#hibernate.driver_class=org.sqlite.JDBC
+#hibernate.url=jdbc:sqlite:pyx.sqlite
 
 # these likely need specified even with sqlite, even though they don't matter
 hibernate.username=pyx

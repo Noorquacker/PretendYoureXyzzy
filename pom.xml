@@ -322,11 +322,7 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-<<<<<<< HEAD
-      <version>42.2.5</version>
-=======
       <version>42.2.12</version>
->>>>>>> ed08e371978529db8a908e266dc1a8add1d37967
     </dependency>
 <dependency>
   <groupId>mysql</groupId>
